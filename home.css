@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.cabecalho{
+    background-color: #fa7f72;
+    padding-top: 5px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+
+
+.caixa_cabecalho{
+    text-align: center;
+}
+
+.h2_nomesite{
+    color: #754147;
+position: relative;
+top: 5px;
+}
+
+.lado_direito{
+    position: relative;
+}
+
+.lado_direito img {
+   position: relative;
+   top: -92px;
+}
+
+.lado_direito input{
+    position: relative;
+    margin-left: 55%;
+    top: -60px;
+   
+}
+
+.iconeperfil{
+    width: 2%;
+    height: 2%;
+    margin-left: 85%;
+
+}
+
+.inp_cabecalho{
+    border-radius: 15px;
+    width: 20%;
+    height: 40px;
+}
