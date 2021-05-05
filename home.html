@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,10 @@
     <link rel="stylesheet" href="home.css">
     <title>SIZE 9.5</title>
 </head>
+
 <body>
+
+    <!--Inicio Cabeçalho-->
 
     <div class="cabecalho">
         <div class="caixa_cabecalho">
@@ -15,18 +19,97 @@
 
             <h2 class="h2_nomesite">Size 9.5</h2>
 
-            <div class="lado_direito">
 
-                <input type="search" class="inp_cabecalho">
-                <img class="iconeperfil" src="icone perfil.png" alt="Perfil">
-                
-            </div>
-            
+
+            <input id="barradepesquisa" type="search" class="inp_cabecalho" placeholder="Pesquise seu tenis aqui">
+
+
+
+
+            <a href="#janelamodal"> <img id="icone_img" class="iconeperfil" src="icone perfil.png" alt="Perfil"></a>
 
         </div>
 
 
     </div>
-    
+
+    <div id="janelamodal" class="caixa_login">
+
+        <a href="#close" title="close" class="close_janela"></a>
+        <h3>Logar com </h3>
+
+        <h4>E-mail</h4>
+        <input type="text" class="inp_janela" placeholder="exemplo@email.com">
+        <h4>Senha</h4>
+        <input type="password" class="inp_janela" placeholder="*********">
+
+        <h5>Esqueceu a senha ?</h5>
+        <button class="btn_entrar">ENTRAR</button>
+
+        <a href="cadastro.html">
+            <h4>Cadastre aqui</h4>
+        </a>
+
+    </div>
+
+
+    <!--Fim Cabeçalho-->
+
+
+    <div class="parte_superior">
+
+        <div class="caixa_superior">
+
+            <div class="img_superior">
+
+                <img class="supreme" src="supreme.png" alt="">
+
+
+
+                <nav>
+                    <ul>
+                        <div class="div_btn">
+                            <a href="div_nike"><button class="btn_padrao btn_nike">NIKE</button></a>
+                            
+                                <a href="div_adidas"> <button class="btn_padrao btn_adidas">ADIDAS</button></a>
+                                <!--
+                                <a href="portfólio.html"> <button class="btn_padrao btn_asics">OUTROS</button></a>
+                         -->
+                                <div class="div_nike">
+                                    <a href="#">Jordan</a>
+                                    <a href="#">Dunk</a>
+                                    <a href="#">Air Max</a>
+                                </div>
+                           <div class="div_adidas">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                    <!--     
+                                </div>
+
+                                <div class="div_outros">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                               -->
+                            
+                            </div>
+
+                        
+
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
 </body>
+
+
 </html>
+
+<script>
+
+</script>

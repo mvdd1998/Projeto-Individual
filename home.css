@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: white;
+    
 
 }
 
@@ -11,45 +13,228 @@ body{
     position: relative;
     width: 100%;
     height: 60px;
+    
 }
 
 
 
 .caixa_cabecalho{
-    text-align: center;
+    
+    position: relative;
+    height: 60px;
 }
 
 .h2_nomesite{
     color: #754147;
 position: relative;
-top: 5px;
+top: -5px;
+font-family: Copperplate;
+left: 3%;
 }
 
-.lado_direito{
+
+
+.caixa_cabecalho .iconeperfil {
+    width: 3%;
+    height: 70%;
+    left: 15%;
     position: relative;
-}
-
-.lado_direito img {
-   position: relative;
-   top: -92px;
-}
-
-.lado_direito input{
-    position: relative;
-    margin-left: 55%;
-    top: -60px;
-   
 }
 
 .iconeperfil{
-    width: 2%;
-    height: 2%;
-    margin-left: 85%;
 
+    top: -60px;
 }
+
+
+
+.caixa_cabecalho input{
+    position: relative;
+    margin-left: 55%;
+    top: -75px;
+    left: 10%;
+   
+}
+
 
 .inp_cabecalho{
     border-radius: 15px;
     width: 20%;
     height: 40px;
 }
+
+
+.caixa_login{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 10px 10px 10px 7px #ccc;
+    padding: 17px 18px 0px 28px;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+    left: 75%;
+    top: 8%;
+    color: #fa7f72;;
+    font-family: Copperplate;
+    text-align: center;
+}
+
+.caixa_login:target{
+    opacity:1;
+	pointer-events: auto;
+
+}
+
+.inp_janela{
+    border-radius: 15px;
+    border:  2px solid #fa7f72;;
+    width: 200px;
+}
+
+.btn_entrar{
+    border: 2px solid #fa7f72;
+    border-radius: 6px;
+    color: #fa7f72;
+    
+}
+
+.close_janela{
+    background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+
+}
+
+.icone_img{
+    cursor: pointer;
+}
+
+
+
+.close_janela:after {
+	content: "\d7";
+}
+
+.close_janela:hover { 
+	background: #f00; 
+}
+
+.img_fila{
+    width: 100%;
+    height: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+.parte_superior{
+    text-align: center;
+    position: relative;
+   
+
+}
+
+.img_superior{
+    position: relative;
+    width: 100%;
+    height: 484px;
+}
+
+.supreme{
+    
+    width: 100%;
+}
+
+
+
+
+.btn_nike {
+    background-color: #fa7f72;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  
+  .div_btn {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .div_nike {
+    display: none;
+    position: absolute;
+    background-color: #fa7f72;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .div_nike a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .div_nike a:hover {
+      background-color: #f1f1f1;
+      color: #fa7f72;
+    }
+  
+  .div_btn:hover .div_nike {
+    display: block;
+  }
+
+  .btn_adidas {
+    background-color: #fa7f72;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .div_adidas {
+    display: none;
+    position: absolute;
+    background-color: #fa7f72;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .div_adidas a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .div_adidas a:hover {
+    background-color: #f1f1f1;
+    color: #fa7f72;
+  }
+  
+  .div_btn:hover .div_adidas {
+    display: block;
+  }
