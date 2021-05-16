@@ -39,6 +39,8 @@ body{
 
 /*FIm cabeçalho*/
 
+/*Inicio Cadastro*/
+
 .cadastro{
     position: relative;
     width: 40%;
@@ -51,13 +53,38 @@ body{
     position: relative;
     background-color: white;
     box-shadow: 10px 10px 10px 7px #ccc;
-    padding: 17px 18px 0px 28px;
+    padding: 10% 0%;
     border-radius: 20px;
     height: 40%;
-	z-index: 99999;
+	
     left: 10%;
     top: 8%;
     color: #fa7f72;;
     font-family: Copperplate;
+    
 
+}
+
+.div_cadastro{
+    padding-top: 10px;
+    
+}
+
+.inp_padrao{
+    float: right;
+    position: relative;
+    right: 101px;
+    width: 58%;
+    border-radius: 15px;
+    border: 2px solid #fa7f72 ;
+    color: #fa7f72;
+}
+
+.btn_padrao{
+    position: relative;
+    left: 50%;
+    margin-top: 15px;
+    border: 2px solid #fa7f72;
+    color: #fa7f72;
+    
 }

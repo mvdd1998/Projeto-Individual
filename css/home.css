@@ -216,7 +216,7 @@ body{
   .lista{
     position: relative;
     width: 100%;
-    height: 2000px;
+    
     margin: 10px
   }
 
@@ -263,18 +263,39 @@ body{
     width: 15%;
   }
 
+  /*Inicio Rodape*/
+
   .rodape{
-    padding-bottom: 10px;
-    bottom: 0;
+    
+    
     padding-top: 0px;
     background: #fa7f72;
     width: 100%;
-    height: 20%;
+    height: 200px;
     color: white;
+   
   }
 
-  .caixa_rodape{
-    width: 100%;
+  .rodape li {
+    margin-left: 10%;
+    display: inline;  
+    position: relative;
+    top: 20px;
+    font-size: 3ch;
+    left: 18%;
   }
+
+  .rodape a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .rodape h4{
+    text-align: center;
+    position: relative;
+    top: 55%;
+  }
+
+
   
 
